@@ -308,7 +308,3 @@ OBS-1: No plano Cool os dados tem que ficar lá sem acesso no mínimo por 30 dia
 Local onde podemos gerenciar as assinaturas de uma conta ex-> Temos duas empreasas Empresa-123 e Empresa-321, lá podemos dividir as assinaturas para cada empresa e assim conseguimos acompanhar os custos da cloud por empresa e saber quanto cada uma está gastando com os recursos.
 
 ***OBS-1: Cada assinatura é possível ver alguns detalhes como Análise de custo, criar alerta de custo, ver orçamentos e até ter recomendações de custo***
-
-
-
-
