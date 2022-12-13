@@ -240,4 +240,73 @@ OBS-1: No plano Cool os dados tem que ficar lá sem acesso no mínimo por 30 dia
 
 ****OBS-1: Para encontra esse serviço dentro do painel da azure basta procurar por Serviço de migração de banco de dados do Azure.****
 
+#### Defense in depth
+
+##### Responsabilidades da Azure e Cliente
+
+**Camada de Estrutura física**
+1. Predios
+2. Data center's
+
+**Camada de Identidade e acesso**
+1. Quem pode logar na sua conta
+2. Fator de Login 
+- MFA
+- SMS
+- changes
+- Log de eventos
+- Topologia de acesso
+
+**Camada de Parâmetros**
+1. Firewall
+
+**Camada de Rede**
+1. Acess list
+2. Acesso de entrada
+3. Acesso de Saída
+
+**Camada de Computação**
+1. Bastian Host
+2. conexão SSH
+3. Manter ultimas atualizações de Software e patchs
+
+**Camada de Aplicação**
+1. Garantir que tudo está aplicado de forma correta para garantir segurança.
+
+**Camada de Data**
+1. Encripitar
+
+***OBS-1: As 7 camadas de segurança mantêm o sua nuvem mais segura.***
+
+### Componentes Essenciais de segurança
+
+#### Firewall
+
+#### Microsoft Defender para Nuvem
+`O Defender para Nuvem é uma ferramenta para gerenciamento de postura de segurança e proteção contra ameaças. Ele fortalece a postura de segurança dos seus recursos de nuvem, e, com seus planos integrados do Microsoft Defender, o Defender para Nuvem protege as cargas de trabalho em execução no Azure, em ambiente híbrido e em outras plataformas de nuvem.`
+
+#### Cofre de chaves
+**Key vault** -> Responsável por criar credenciais, temporárias, normalmente utilizada por empresas parceiras ou terceiros.
+
+#### Microsoft Sentinel
+`O Microsoft Sentinel é uma solução escalonável e nativa de nuvem que oferece SIEM (gerenciamento de eventos de informações de segurança) e SOAR (resposta automatizada para orquestração de segurança) . O Microsoft Sentinel oferece análise inteligente de segurança e inteligência contra ameaças em toda a empresa, com uma solução para detecção de alertas, visibilidade de ameaças, procura proativa e resposta a ameaças.`
+
+***Principais recursos do Sentinel***
+
+1. Colete dados na escala de nuvem de todos os usuários, dispositivos, aplicativos e infraestrutura, local e em múltiplas nuvens.
+
+2. Detecte ameaças que ainda não foram descobertas e minimize falsos positivos usando a análise e a inteligência contra ameaças incomparáveis da Microsoft.
+
+3. Investigue ameaças com inteligência artificial e busque por atividades suspeitas em escala, acessando anos de trabalho sobre segurança cibernética na Microsoft.
+
+4. Responda a incidentes de forma rápida com orquestração interna e automação de tarefas comuns.
+
+#### Internet das Coisas (IoT) do Azure
+`A Internet das Coisas (IoT) do Azure é uma coleção de serviços cloud geridos pela Microsoft que ligam, monitorizam e controlam milhares de milhões de recursos de IoT. Em termos mais simples, uma solução IoT é composta por um ou mais dispositivos IoT que comunicam com um ou mais serviços de back-end alojados na cloud.`
+
+#### Assinaturas
+Local onde podemos gerenciar as assinaturas de uma conta ex-> Temos duas empreasas Empresa-123 e Empresa-321, lá podemos dividir as assinaturas para cada empresa e assim conseguimos acompanhar os custos da cloud por empresa e saber quanto cada uma está gastando com os recursos.
+
+***OBS-1: Cada assinatura é possível ver alguns detalhes como Análise de custo, criar alerta de custo, ver orçamentos e até ter recomendações de custo***
+
 [Resumo Azure Click Aqui!](https://github.com/feliperafa/Azure-Resumo-Nuvem/blob/90add817d0468f555144007305f153c43cfb73ef/Azure%20Anota%C3%A7%C3%B5es.md)
