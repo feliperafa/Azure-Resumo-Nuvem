@@ -309,4 +309,32 @@ Local onde podemos gerenciar as assinaturas de uma conta ex-> Temos duas empreas
 
 ***OBS-1: Cada assinatura é possível ver alguns detalhes como Análise de custo, criar alerta de custo, ver orçamentos e até ter recomendações de custo***
 
+#### Gerenciamento de custo e orçamentos
+
+Na Analise de custo é possivel ver e ter uma previsão de quanto será cobrado ao final do mês, e caso o usuario queira ver com mais detalhes a analise de custo mostra os gasto por nome do serviço, por localidade e ate mesmo por nome de grupo.
+
+***OBS-1: É recomendado criar orçamentos com alerta pois, quando algum serviço ou assinatura X atingir um percentual proposto no orçamento, o administrador irá receber um alerta via SMS ou via E-mail, isso vai de acordo com o configurado.***
+
+***OBS-2: Caso o orçamento chegue no limite, ele não ira parar os serviços apenas vai ser cobrado mais no faturamento final por isso caso tenha feito orçamentos e não queira passar do proposto é bom se atentar aos alertas criados.***
+
+#### Calculadora de preço azure
+
+[Página de acesso a calculadora](https://azure.microsoft.com/pt-br/pricing/calculator/)
+
+#### Plano de suporte
+
+**Existem 4 tipos de plano de suporte**
+1. Básico
+2. Developer
+3. Standard
+4. Professional Direct
+
+#### SLA ou Service Level Agreement
+
+Contrato de tempo de acordo entre o provedor e o cliente para resolução de um serviço.
+
+#### Atualizações do Azure
+
+[Site com as atualizações Azure](https://azure.microsoft.com/pt-br/updates/)
+
 [Resumo Azure Click Aqui!](https://github.com/feliperafa/Azure-Resumo-Nuvem/blob/90add817d0468f555144007305f153c43cfb73ef/Azure%20Anota%C3%A7%C3%B5es.md)
