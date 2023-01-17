@@ -12,6 +12,8 @@ Portal Azure -> https://portal.azure.com/?quickstart=true#view/Microsoft_Azure_R
 
 ### Modelos de cloud's ou Models
 
+![image](https://user-images.githubusercontent.com/44281161/212974626-23ee7418-0c98-43f9-9b83-7b8eb37bd2c0.png)
+
 `Infraestrutura Como Serviço
 Iass -> Infraestrutura ou servidor físico, nesse modelo o cliente que contratou gerencia seu servidor`
 
