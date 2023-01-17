@@ -71,7 +71,7 @@ OBS-2: Esse plano vai ter um pouco de investimento pois vai ser levado em conta 
 
 
 ### 5 benefícios de Cloud
-`{ 1. Flexibilidade 2. Custo-benefício 3. Segurança 4. Prototipagem rápida 5. Melhor colaboração }`
+`{ 1. Flexibilidade 2. Custo-benefício 3. Segurança 4. Prototipagem rápida 5. Melhor colaboração 6. Alta disponibilidade 7. Escalabilidade 8. Alcance global 9. Agilidade 10. Recuperação de desastre 11. Tolerância a falhas 12. Elasticidade 13. Capacidade de latência do cliente }`
 
 ### Regions and availability zone
 
