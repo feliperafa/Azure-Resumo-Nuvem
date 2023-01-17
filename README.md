@@ -12,19 +12,22 @@ Portal Azure -> https://portal.azure.com/?quickstart=true#view/Microsoft_Azure_R
 
 ### Modelos de cloud's ou Models
 
-`Iass -> Infraestrutura ou servidor físico, nesse modelo o cliente que contratou gerencia seu servidor`
+`Infraestrutura Como Serviço
+Iass -> Infraestrutura ou servidor físico, nesse modelo o cliente que contratou gerencia seu servidor`
 
 * IasS
 usada para acesso a recursos de computação e armazenamento baseados na Internet. Sendo a categoria mais básica entre os tipos de computação em nuvem, a IaaS permite que você alugue uma infraestrutura de TI (servidores e máquinas virtuais, armazenamento, redes e sistemas operacionais) de um provedor de nuvem em uma base paga conforme o uso.
 
 
-`Paas -> Modelo pago pelo cliente onde ele utiliza e não precisa se preocupar com licenças da aplicação, apenas se preocupa como utilizar. ("Aplicação da própria Microsoft Azure")`
+`Plataforma Como Serviço
+Paas -> Modelo pago pelo cliente onde ele utiliza e não precisa se preocupar com licenças da aplicação, apenas se preocupa como utilizar. ("Aplicação da própria Microsoft Azure")`
 
 * PasS
 que dá aos desenvolvedores as ferramentas necessárias para criar e hospedar aplicativos Web. A PaaS foi desenvolvida para proporcionar aos usuários o acesso aos componentes necessários para desenvolver e operar rapidamente aplicativos Web ou móveis na Internet, sem se preocupar com a configuração ou gerenciamento da infraestrutura subjacente dos servidores, armazenamento, redes e bancos de dados.
 
 
-`Saas -> Software da aplicação`
+`Software Como Serviço
+Saas -> Software da aplicação`
 
 * SasS
 usado para aplicativos baseados na Web. O SaaS é um método de entrega de aplicativos de software na Internet, no qual os provedores de nuvem hospedam e gerenciam os aplicativos de software, fazendo com que seja simples ter o mesmo aplicativo em todos seus dispositivos de uma só vez por meio da nuvem.
