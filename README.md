@@ -81,9 +81,18 @@ OBS-2: Esse plano vai ter um pouco de investimento pois vai ser levado em conta 
 ### Regions and availability zone
 
 Regions -> *As regiões são formadas por um conjunto de Availability zone's*
+  * Fornece uma flexibilidade e escala para reduzir a latência do cliente.
+  * As regiões  são compostas de um ou mais datacenters muito proximos.
 
 Availability zone -> *Zona de disponibilidade*
 
+![image](https://user-images.githubusercontent.com/44281161/214054823-f716b109-9fa6-4c10-8528-86390505f67a.png)
+
+►  Azure Global Infrastructure
+🔗 https://infrastructuremap.microsoft.com/
+
+►  Calculadora do Azure
+🔗 https://azure.microsoft.com/pt-br/pricing/calculator/
 
 ### Grupo de recursos
 
