@@ -88,6 +88,8 @@ Availability zone -> *Zona de disponibilidade*
 
 ![image](https://user-images.githubusercontent.com/44281161/214054823-f716b109-9fa6-4c10-8528-86390505f67a.png)
 
+![image](https://user-images.githubusercontent.com/44281161/214056786-14fd17c3-e7c2-4dfa-8efe-7a7f13904b93.png)
+
 ►  Azure Global Infrastructure
 🔗 https://infrastructuremap.microsoft.com/
 
