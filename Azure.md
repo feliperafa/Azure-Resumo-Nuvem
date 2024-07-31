@@ -65,7 +65,7 @@ Benefícios da Nuvem
 - Considerações sobre custo preditivo
 - Segurança
 
-![alt text](./img/./img/image-1.png)
+![alt text](./img/image-1.png)
 
 ![alt text](./img/image-2.png)
 
