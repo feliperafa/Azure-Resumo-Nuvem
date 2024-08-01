@@ -1,0 +1,269 @@
+### Azure Blob Storage
+
+`É um serviço de armazenamento na nuvem que permite armazenar e acessar grandes quantidades de dados não estruturados, como imagens, vídeos, arquivos de áudio e outros tipos de arquivos. Ele fornece armazenamento escalável e durável com acesso seguro e de alta disponibilidade.`
+
+<strong style="color:red">OBS1: O limite máximo de tamanho para um Blob individual no Azure Blob Storage é de 5 TB (terabytes). Isso permite armazenar objetos grandes, como arquivos de vídeo de alta resolução, backups de bancos de dados e outros dados volumosos.</strong>
+
+<strong style="color:red">OBS2: Azure Blob Storage é usado para armazenar dados não estruturados, como imagens, vídeos e arquivos. É uma solução adequada para armazenar e compartilhar arquivos grandes entre equipes internas e parceiros externos, tornando a resposta correta.</strong>
+
+### Azure Cosmos DB
+
+`é um serviço de banco de dados multimodelo globalmente distribuído e altamente escalável. Embora possa armazenar e gerenciar dados estruturados e não estruturados, não é especificamente projetado para armazenamento de arquivos de mídia.`
+
+### Azure File Storage
+
+`é um serviço de armazenamento na nuvem que fornece compartilhamentos de arquivos acessíveis por meio do protocolo SMB (Server Message Block). Embora possa armazenar arquivos, não é projetado especificamente para armazenar dados não estruturados, como imagens e vídeos.`
+
+<strong style="color:red">OBS: Azure File Storage oferece compartilhamentos de arquivos na nuvem acessíveis via protocolos SMB (Server Message Block) e NFS (Network File System), permitindo que vários usuários e aplicativos acessem arquivos compartilhados simultaneamente.</strong>
+
+### Azure Table Storage
+
+`é um serviço de banco de dados NoSQL que permite armazenar grandes quantidades de dados semi-estruturados. Embora seja útil para dados estruturados ou semi-estruturados, não é o serviço principal para armazenar dados não estruturados, como imagens e vídeos.`
+
+### Power BI
+
+`é uma solução de análise de big data que permite explorar e visualizar dados de forma interativa, criando relatórios e painéis interativos para obter insights dos dados.`
+
+### Serviço de Kubernetes do Azure
+
+`permite implantar aplicativos e máquinas virtuais em contêineres sem gerenciar a infraestrutura subjacente, facilitando a orquestração de contêineres na nuvem.`
+
+### Serviço de Aplicativo
+
+`O Serviço de Aplicativo do Azure é uma plataforma para hospedar aplicativos web e back-ends móveis.`
+
+### Azure Key Vault
+
+`é um serviço que permite armazenar e proteger chaves criptográficas usadas em aplicativos e serviços, garantindo a segurança de informações sensíveis.`
+
+### serviço de Bot de IA do Azure
+
+`("Azure Bot Services", em inglês) é um serviço que permite criar, implantar e gerenciar bots para interações com usuários em vários canais, como chat e voz.`
+
+### Azure Game Services
+
+`é uma plataforma de nuvem para o desenvolvimento, execução e dimensionamento de aplicativos de jogos em tempo real, fornecendo recursos específicos para a indústria de jogos.`
+
+### Azure DevTest Labs
+
+`é um serviço que permite criar e gerenciar ambientes de desenvolvimento e testes, fornecendo recursos para provisionar rapidamente máquinas virtuais e outros recursos para cenários de desenvolvimento e testes.`
+
+### Azure API Management
+
+`é um serviço que permite criar e implantar APIs seguras, fornecendo recursos para gerenciar o acesso aos dados e funcionalidades dos seus aplicativos.`
+
+### Azure Site Recovery
+
+`é um serviço que permite fazer backup e recuperar máquinas virtuais protegidas pelo Azure Backup, garantindo a disponibilidade dos dados e aplicações em caso de falhas.`
+
+### Serviço de Banco de Dados do Azure para MySQL e PostgreSQL
+
+`é usado para criar e gerenciar bancos de dados relacionais MySQL, PostgreSQL e MariaDB, fornecendo uma plataforma gerenciada para bancos de dados relacionais.`
+
+### Plano Básico do Azure
+
+`inclui suporte técnico 24x7 para problemas de produção críticos, suporte para assinaturas gratuitas e suporte de atendimento para perguntas de configuração e orientação.`
+
+### Plano Standard do Azure
+
+`inclui um Gerente de Conta Técnico para fornecer suporte personalizado e especializado, suporte técnico 24x7 para todos os problemas e suporte de atendimento para perguntas de configuração e orientação.`
+
+### Autenticação Multi Fator (MFA) no Azure
+
+`é um método de autenticação que requer várias formas de identificação do usuário para obter acesso a recursos. Isso geralmente inclui algo que o usuário conhece (senha), algo que o usuário possui (smartphone ou token) e algo que é inerente ao usuário (biometria, como impressão digital ou reconhecimento facial).`
+
+### principais componentes do Controle de Acesso Baseado em Função (RBAC) no Azure
+
+`incluem usuários, grupos de usuários, aplicativos e grupos de segurança. Os usuários são as contas individuais com acesso ao Azure, os grupos de usuários são usados para agrupar usuários com funções semelhantes, os aplicativos representam as identidades de serviços e os grupos de segurança são usados para conceder permissões a um conjunto de usuários ou aplicativos.`
+
+### Azure Advisor
+
+`fornece recomendações para otimizar o desempenho, a confiabilidade e a segurança dos recursos implantados no Azure. Isso inclui recomendações relacionadas a práticas recomendadas de segurança, eficiência operacional, disponibilidade, custos e desempenho.`
+
+### Azure ExpressRoute
+
+`oferece benefícios significativos em relação às conexões de rede pela Internet pública:`
+
+`Conexão mais rápida: O ExpressRoute proporciona uma conexão dedicada e direta entre as redes locais e os serviços do Azure, evitando a rotação pela Internet pública e melhorando a velocidade de comunicação.`
+
+`Menor latência: A conexão dedicada e privada do ExpressRoute reduz a latência da rede, o que é especialmente importante para aplicativos e serviços que exigem baixa latência, como comunicações em tempo real e transações sensíveis ao tempo.`
+
+`Maior segurança: O ExpressRoute oferece uma conexão privada e não passa pela Internet pública, proporcionando uma camada adicional de segurança em comparação com as conexões pela Internet que são mais suscetíveis a ameaças cibernéticas.`
+
+### Grupos de Escalonamento de VMs no Azure
+
+`incluem:`
+
+`Dimensionamento automático com base na demanda da carga de trabalho: O VMSS permite que você dimensione automaticamente o número de instâncias de VMs para atender à demanda do aplicativo em tempo real.`
+
+`Alta disponibilidade dos aplicativos: Ao ter várias instâncias de VMs, o VMSS garante alta disponibilidade dos aplicativos, distribuindo a carga entre as instâncias para que o aplicativo continue a funcionar mesmo em caso de falha de uma VM.`
+
+`Facilitação das atualizações de imagem e configuração: O VMSS facilita a atualização de imagem e configuração para todas as instâncias de VMs do conjunto. Isso torna a manutenção e atualização dos aplicativos mais fácil e consistente.`
+
+### Azure Web Application Firewall (WAF)
+
+`incluem:`
+
+`Bloqueio de solicitações maliciosas: O WAF é capaz de bloquear solicitações maliciosas, como tentativas de injeções de SQL e ataques de cross-site scripting (XSS), protegendo o aplicativo contra ameaças conhecidas.`
+
+`Filtragem de tráfego baseada em regras: O WAF permite definir regras personalizadas para filtrar o tráfego de entrada e saída, permitindo ou bloqueando solicitações com base em determinados critérios.`
+
+`Logs detalhados de tráfego da web: O WAF registra detalhadamente o tráfego da web, permitindo que os administradores monitorem e analisem as solicitações recebidas pelo aplicativo, facilitando a identificação de padrões de ataque e ações suspeitas.`
+
+### Azure API Management
+
+`incluem:`
+
+`Gateway de API para entrada de solicitações: O API Management atua como um gateway que recebe solicitações dos clientes e encaminha para as APIs subjacentes.`
+
+`Autenticação baseada em token: O API Management oferece suporte a diferentes mecanismos de autenticação baseada em token, permitindo controlar o acesso às APIs.`
+
+`Gerenciamento de chaves de API: O API Management permite gerenciar chaves de API, que são usadas pelos desenvolvedores para autenticar suas solicitações.`
+
+`Políticas de API personalizadas: O API Management permite definir políticas personalizadas, como transformações de solicitação e resposta, rate limiting, caching, entre outros.`
+
+### Azure HDInsight
+
+`oferece suporte a várias tecnologias de big data de código aberto, e uma delas é o Apache Spark. O Apache Spark é uma estrutura de processamento distribuído que permite executar análises de dados em larga escala, incluindo processamento de dados em tempo real, processamento de lotes e processamento interativo.`
+
+### Azure Logic Apps
+
+`é o serviço mais adequado para automatizar fluxos de trabalho e integrações em nuvem. Com o Azure Logic Apps, você pode criar fluxos de trabalho sem código que conectam aplicativos, serviços e sistemas, permitindo a automação de tarefas, como o processo de aprovação de solicitações de férias. Ele pode enviar notificações automáticas aos gerentes, coletar suas respostas e prosseguir com a aprovação ou rejeição das solicitações, tudo de forma automatizada e sem intervenção manual.`
+
+### Azure Virtual Desktop
+
+`Vantagens:`
+
+`é o acesso seguro e otimizado a desktops e aplicativos hospedados em nuvem usando um protocolo de streaming de alta latência, proporcionando uma experiência de usuário mais eficiente e responsiva.`
+
+### Azure Virtual Desktop
+
+`suporta como desktops virtuais o sistema operacional Windows 10 Enterprise multi-sessão (também conhecido como Windows 10 Enterprise for Virtual Desktops) e o sistema operacional Windows Server. Esses sistemas operacionais são projetados para fornecer uma experiência de desktop virtual otimizada e são os principais sistemas operacionais suportados pelo serviço.`
+
+### nuvem híbrida
+
+`oferece a capacidade de integrar com sistemas legados existentes, o que pode ser difícil ou impossível em uma abordagem exclusivamente em nuvem pública. Além disso, a nuvem híbrida permite que as empresas cumpram regulamentações específicas e tenham maior flexibilidade para lidar com mudanças em suas necessidades de infraestrutura.`
+
+### Well-Architected Framework
+
+`é um conjunto de práticas recomendadas adotado pela Azure, com o objetivo de ajudar os arquitetos de soluções a projetar sistemas em nuvem altamente disponíveis, seguros, eficientes e resilientes.`
+
+<strong style="color:red">OBS: O pilar de "Custos" no Well-Architected Framework visa otimizar o uso dos recursos para evitar gastos desnecessários e garantir que a arquitetura seja eficiente e econômica.</strong>
+
+### Azure Cost Management + Billing
+
+`permite criar tags em recursos e categorizá-los para fins de análise de custos, o que ajuda a entender os gastos por projeto, departamento ou outras categorias relevantes.`
+
+### Azure Pricing Calculator
+
+`pode ser usado para estimar o custo mensal de armazenamento de arquivos no Azure Blob Storage, considerando a quantidade de dados armazenados e as taxas de uso. O serviço também pode ser usado para estimar o custo com os demais serviços do Azure.`
+
+### Azure App Service
+
+`é um serviço de Plataforma como Serviço (PaaS) que oferece um ambiente gerenciado para criar, implantar e dimensionar aplicativos web, móveis e APIs de forma rápida e fácil, sem se preocupar com a infraestrutura subjacente.`
+
+### Azure SQL Database
+
+`é um serviço de banco de dados gerenciado que oferece suporte para bancos de dados SQL Server, bem como bancos de dados MySQL, PostgreSQL e MariaDB.`
+
+### IaaS
+
+`fornece aos usuários controle total sobre a infraestrutura subjacente. Eles são responsáveis por gerenciar redes, servidores virtuais e sistemas operacionais, podendo personalizar e configurar esses componentes conforme suas necessidades.`
+
+### Azure Security Center
+
+`oferece proteção de máquinas virtuais, firewall de aplicativos web e detecção de ameaças.`
+
+<strong style="color:red">OBS: O Azure Security Center não oferece serviços como firewall de rede, DNS privado ou balanceamento de carga. Seu foco é a segurança dos recursos em ambientes Azure.
+
+O Azure Security Center não é responsável pelo gerenciamento de identidade e acesso, certificados SSL ou diretório ativo. Ele é uma ferramenta de segurança e monitoramento.
+
+O Azure Security Center não oferece serviços de balanceamento de carga, discos gerenciados ou virtual network. Ele é voltado para aprimorar a segurança dos recursos em ambientes Azure.</strong>
+
+### As regiões do Azure são distribuídas em todos os continentes do mundo ?
+
+`Sim, as regiões do Azure estão distribuídas em todos os continentes habitados do mundo. O Azure possui data centers em várias regiões globais para oferecer serviços de nuvem com baixa latência, alta disponibilidade e conformidade local.`
+
+`América do Norte:`
+
+`Estados Unidos: Várias regiões, incluindo Leste dos EUA, Oeste dos EUA, Centro-Sul dos EUA, Centro-Oeste dos EUA, Norte Central dos EUA, Oeste Central dos EUA, Sul Central dos EUA, e mais.`
+
+`Canadá: Canadá Leste, Canadá Central.`
+
+`América do Sul:`
+
+`Brasil: Brasil Sul, Brasil Sudeste.`
+
+`Europa:`
+
+`Regiões: Norte da Europa (Irlanda), Oeste da Europa (Países Baixos), França Central, França Sul, Alemanha Norte, Alemanha Oeste Central, Suíça Norte, Suíça Oeste, Reino Unido Sul, Reino Unido Oeste, Norte da Noruega, Oeste da Noruega, Suécia Central, Suécia Sul, Leste da Polônia, Sul da Espanha.`
+
+`Ásia:`
+
+`Regiões: Leste da Ásia (Hong Kong), Sudeste da Ásia (Cingapura), Leste do Japão, Oeste do Japão, Central da Índia, Oeste da Índia, Sul da Índia, Leste da China, Norte da China, Coreia Central, Coreia Sul, Oeste da Malásia.`
+
+`Austrália:`
+
+`Regiões: Leste da Austrália, Sudeste da Austrália, Centro da Austrália.`
+
+`África:`
+
+`Regiões: Norte da África (Marrocos), Sul da África (África do Sul Norte, África do Sul Oeste).`
+
+`Oriente Médio:`
+
+`Regiões: Norte dos Emirados Árabes Unidos (UAE North), Central dos Emirados Árabes Unidos (UAE Central), Catar (Qatar Central), Arábia Saudita Central.`
+
+`Essa distribuição global permite que a Microsoft Azure forneça serviços de nuvem próximos aos usuários finais, melhorando a latência e a disponibilidade dos serviços. A cada ano, novas regiões são adicionadas para atender à crescente demanda por serviços de nuvem em diferentes partes do mundo.`
+
+### regiões do Azure
+
+`não estão restritas apenas a áreas urbanas e metropolitanas. A Microsoft busca locais em diferentes áreas geográficas, tanto em áreas urbanas quanto em locais remotos ou menos densamente povoados. Isso permite que o Azure ofereça serviços a uma ampla variedade de clientes, incluindo aqueles em regiões menos desenvolvidas, garantindo uma distribuição global e equitativa dos recursos em nuvem.`
+
+### O que é o Azure Arc?
+
+`Um serviço que permite gerenciar recursos em ambientes locais e em várias nuvens. O Azure Arc é uma extensão do Azure que permite estender o gerenciamento e os serviços do Azure para recursos fora da nuvem do Azure, incluindo servidores locais, clusters Kubernetes e até mesmo recursos em outras nuvens. Com o Azure Arc, é possível centralizar a gestão e aplicar políticas consistentes em todos esses recursos, independentemente de onde estejam hospedados.`
+
+### Quais são os desafios comuns enfrentados pelas empresas ao adotar uma estratégia de nuvem híbrida?
+
+`Uma das principais dificuldades enfrentadas pelas empresas ao adotar uma estratégia de nuvem híbrida é a complexidade do gerenciamento de recursos em ambientes locais e na nuvem pública. As empresas precisam lidar com diferentes ferramentas e plataformas para gerenciar seus recursos`
+
+### Quais são os tipos de contas de usuário que podem acessar o Portal do Azure?
+
+`O Portal do Azure suporta tanto contas de administrador do Azure, que são criadas diretamente no Azure, quanto contas da Microsoft, que são associadas a serviços como Outlook, Hotmail, MSN, Xbox, entre outros. Os usuários podem fazer login no Portal do Azure usando qualquer uma dessas contas para acessar e gerenciar seus recursos e serviços.`
+
+### Qual é o objetivo principal do Portal de Conformidade da Azure?
+
+`Avaliar e garantir a conformidade dos recursos com políticas de segurança na Azure. O Portal de Conformidade da Azure ("Azure Compliance", em inglês) é projetado para ajudar as organizações a monitorar e manter a conformidade de seus recursos na nuvem. Ele verifica se os recursos estão em conformidade com as políticas e padrões de segurança definidos pela organização ou pelos padrões do setor, identificando possíveis violações e fornecendo insights para tomar ações corretivas.`
+
+### Gerenciador de Tráfego do Azure ("Azure Traffic Manager", em inglês)
+
+`é um serviço de roteamento de tráfego global que permite distribuir o tráfego de entrada entre diferentes endpoints com base em políticas de tráfego configuradas. Com o Traffic Manager, a empresa pode implantar aplicativos em várias regiões do Azure e redirecionar os usuários para a região mais próxima geograficamente, garantindo alta disponibilidade e desempenho para seus aplicativos em diferentes locais ao redor do mundo.`
+
+### Azure Cosmos DB
+
+`é um serviço de banco de dados globalmente distribuído e altamente escalável que suporta vários modelos de dados, como documentos, gráficos, colunas e chave-valor. Com o Cosmos DB, a empresa pode armazenar e processar grandes volumes de dados de clientes de forma eficiente, garantindo baixa latência e alta disponibilidade em várias regiões do Azure.`
+
+### Azure Active Directory (Azure AD)
+
+`Fornece serviços de autenticação e autorização para controlar o acesso a recursos e aplicativos na nuvem da Azure.`
+
+### Azure Sentinel
+
+`Gerencia informações e eventos de segurança (SIEM) nativo da nuvem, que ajuda a detectar, investigar e responder a ameaças em tempo real`
+
+### Azure Kubernetes Service (AKS)
+
+`Fornece um ambiente gerenciado para implantar, gerenciar e escalar aplicativos em contêineres usando o Kubernetes.`
+
+### Azure Functions
+
+`Permite executar código em resposta a eventos específicos sem a necessidade de provisionar ou gerenciar infraestrutura.`
+
+### Marcas ("Tags", em inglês)
+
+`são usadas para organizar e categorizar recursos, facilitando o gerenciamento e o faturamento. Elas ajudam a identificar, agrupar e categorizar recursos com base em atributos específicos, como nome do departamento, ambiente, projeto, etc.`
+
+### zona de disponibilidade no Azure
+
+`é composta por um conjunto de data centers virtualmente conectados dentro de uma região do Azure. Cada zona possui suas próprias fontes de energia, resfriamento e rede, oferecendo alta disponibilidade para aplicativos e serviços.`
