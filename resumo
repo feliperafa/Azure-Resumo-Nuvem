@@ -10,6 +10,10 @@
 
 `é um serviço de banco de dados multimodelo globalmente distribuído e altamente escalável. Embora possa armazenar e gerenciar dados estruturados e não estruturados, não é especificamente projetado para armazenamento de arquivos de mídia.`
 
+<strong style="color:red">OBS: O Azure Cosmos DB é um serviço de banco de dados NoSQL distribuído globalmente e completamente gerenciado que tamb[em se enquadra na categoria de Platform as a Service (PaaS).
+
+O Azure Cosmos DB não é um serviço de banco de dados relacional</strong>
+
 ### Azure File Storage
 
 `é um serviço de armazenamento na nuvem que fornece compartilhamentos de arquivos acessíveis por meio do protocolo SMB (Server Message Block). Embora possa armazenar arquivos, não é projetado especificamente para armazenar dados não estruturados, como imagens e vídeos.`
@@ -130,6 +134,9 @@
 
 `é o serviço mais adequado para automatizar fluxos de trabalho e integrações em nuvem. Com o Azure Logic Apps, você pode criar fluxos de trabalho sem código que conectam aplicativos, serviços e sistemas, permitindo a automação de tarefas, como o processo de aprovação de solicitações de férias. Ele pode enviar notificações automáticas aos gerentes, coletar suas respostas e prosseguir com a aprovação ou rejeição das solicitações, tudo de forma automatizada e sem intervenção manual.`
 
+<strong style="color:red">OBS: O Azure Logic Apps é um serviço PaaS que permite criar fluxos de trabalho automatizados usando conectores pré-construídos para integrar aplicativos, dados e serviços em ambientes de nuvem e locais, facilitando a automação de tarefas e processos de negócios.
+</strong>
+
 ### Azure Virtual Desktop
 
 `Vantagens:`
@@ -169,6 +176,8 @@
 ### IaaS
 
 `fornece aos usuários controle total sobre a infraestrutura subjacente. Eles são responsáveis por gerenciar redes, servidores virtuais e sistemas operacionais, podendo personalizar e configurar esses componentes conforme suas necessidades.`
+
+<strong style="color:red">OBS: Um dos principais benefícios do uso de serviços de Infraestrutura como Serviço (IaaS) é a implantação rápida e fácil de aplicativos sem a necessidade de configurar e gerenciar a infraestrutura de hardware subjacente. Os usuários podem criar e executar máquinas virtuais prontas para uso em questão de minutos.</strong>
 
 ### Azure Security Center
 
@@ -260,10 +269,130 @@ O Azure Security Center não oferece serviços de balanceamento de carga, discos
 
 `Permite executar código em resposta a eventos específicos sem a necessidade de provisionar ou gerenciar infraestrutura.`
 
+<strong style="color:red">OBS: O Azure Functions é um serviço PaaS que permite aos usuários executarem código de forma serverless, sem a necessidade de gerenciar a infraestrutura subjacente.</strong>
+
 ### Marcas ("Tags", em inglês)
 
 `são usadas para organizar e categorizar recursos, facilitando o gerenciamento e o faturamento. Elas ajudam a identificar, agrupar e categorizar recursos com base em atributos específicos, como nome do departamento, ambiente, projeto, etc.`
 
+<strong style="color:red">OBS: O limite máximo de tags que podem ser associadas a um único recurso no Azure é de 20 tags.</strong>
+
 ### zona de disponibilidade no Azure
 
 `é composta por um conjunto de data centers virtualmente conectados dentro de uma região do Azure. Cada zona possui suas próprias fontes de energia, resfriamento e rede, oferecendo alta disponibilidade para aplicativos e serviços.`
+
+### Resource Health"
+
+`é uma exibição personalizada dos recursos reais do Azure. Ele oferece informações sobre a integridade dos recursos de nuvem individuais, é o mais adequado na avaliação do cenário apresentado.`
+
+### Azure Blob Storage
+
+`é uma plataforma gerenciada de armazenamento de objetos escalável e altamente disponível, projetada para armazenar e gerenciar grandes quantidades de dados não estruturados, como imagens, vídeos e documentos.`
+
+### Azure Robotics
+
+`é uma plataforma de nuvem para criação, teste e implantação de aplicativos inteligentes de robótica, permitindo desenvolver soluções robóticas com facilidade.`
+
+### Microsoft Entra ID
+
+`é uma solução de gerenciamento de identidades baseada em nuvem, que fornece autenticação e gerenciamento de acesso para usuários e aplicativos.`
+
+<strong style="color:red">OBS: O Microsoft Azure Active Directory (Azure AD) está sendo renomeado para Microsoft Entra ID. Use o Microsoft Entra ID para gerenciar identidades de usuário e controlar o acesso a seus aplicativos, dados e recursos.</strong>
+
+### Serviços de Mídia do Azure ("Azure Media Services" em inglês)
+
+`é um serviço que permite fazer a transmissão ao vivo de eventos para audiências em todo o mundo, fornecendo uma plataforma escalável para transmissão de vídeo e áudio.`
+
+### Azure Lab Services
+
+`é usado para criar e gerenciar ambientes de laboratório virtual, permitindo configurar e distribuir máquinas virtuais para fins educacionais, treinamentos e testes.`
+
+### Azure Monitor
+
+`é uma solução de gerenciamento e monitoramento centralizado para recursos do Azure, fornecendo informações em tempo real sobre o desempenho e disponibilidade de aplicativos e serviços. Colete, examine e tire proveito dos dados de telemetria em ambientes que combinam recursos locais e de nuvem. O Azure Monitor oferece suporte às suas operações em larga escala, auxiliando na otimização do desempenho e disponibilidade de seus recursos, além de identificar problemas de forma proativa.`
+
+### Serviço de Aplicativos Lógicos do Azure("Azure Logic Apps", em inglês)
+
+`possibilita a criação e administração de fluxos de trabalho automatizados, permitindo a configuração de botões virtuais e lógica para automatizar tarefas. Ele facilita a integração entre diferentes aplicativos e serviços, simplificando a comunicação e a execução coordenada de processos em sistemas diversos. Em resumo, o Azure Logic Apps oferece uma abordagem eficiente para orquestrar a interação entre diferentes componentes de software, tornando a automação de tarefas e fluxos de trabalho mais acessível e eficaz.`
+
+### Serviço de Integração do Azure ("Integration Services", em inglês)
+
+`desempenha um papel fundamental ao permitir a criação e administração de serviços de integração de aplicativos. Sua principal função é estabelecer conexões entre diferentes aplicativos, dados e serviços, facilitando a integração eficaz entre componentes localizados tanto na nuvem quanto no ambiente local. Isso possibilita uma comunicação fluida e a transferência eficiente de informações entre diferentes partes do ecossistema de uma organização. Em resumo, o Azure Integration Services oferece uma abordagem robusta e centralizada para gerenciar a integração de aplicativos em ambientes diversos, promovendo uma arquitetura coesa e eficiente.`
+
+### Azure DNS
+
+`é um serviço de resolução de nomes de domínio oferecido pelo Microsoft Azure. Ele permite mapear nomes de domínio legíveis para humanos em endereços IP numéricos usados pelos computadores. O serviço de DNS é responsável por resolver esses nomes em endereços IP, permitindo que os recursos e serviços na nuvem do Azure sejam acessados usando nomes de domínio amigáveis.`
+
+### VPN do Azure
+
+`é uma rede privada virtual que permite estabelecer uma conexão segura e criptografada entre a rede local de uma organização e os recursos na nuvem do Azure. Essa conexão é estabelecida através da Internet pública, permitindo que os usuários acessem recursos do Azure como se estivessem conectados à rede local da organização.`
+
+### Security Group no Azure
+
+`é um conjunto de regras de segurança que define quais tráfegos de rede são permitidos ou negados para recursos implantados em uma rede virtual do Azure. Essas regras são aplicadas em nível de porta e protocolo, permitindo que você controle o tráfego de entrada e saída para máquinas virtuais, balanceadores de carga e outros recursos do Azure.`
+
+### Azure DDoS Protection Standard
+
+`é o serviço específico do Azure que oferece proteção contra ataques DDoS distribuídos. Ele fornece proteção automatizada, em tempo real e de camadas múltiplas contra ameaças DDoS, mitigando ataques que possam afetar os recursos hospedados no Azure.`
+
+### Azure Content Delivery Network (CDN)
+
+`é um serviço de cache distribuído que replica conteúdo estático, como imagens, scripts e arquivos, em servidores localizados em locais geograficamente distribuídos, conhecidos como pontos de presença (PoPs). Isso melhora o desempenho e a escalabilidade ao entregar o conteúdo a partir do ponto de presença mais próximo do usuário final, reduzindo a latência e o tempo de carregamento das páginas.`
+
+### Azure DevOps
+
+`é um conjunto de ferramentas e serviços baseados em nuvem oferecidos pela Microsoft para o desenvolvimento de software. Ele abrange uma ampla gama de funcionalidades, incluindo controle de código-fonte com o Azure Repos, planejamento e rastreamento de projetos com o Azure Boards, criação de pipelines de integração contínua e entrega contínua (CI/CD) com o Azure Pipelines, testes automatizados com o Azure Test Plans e muito mais. O Azure DevOps ajuda as equipes de desenvolvimento a colaborarem de forma eficaz, automatizar processos e entregar software de alta qualidade de forma mais rápida.`
+
+<strong style="color:red">OBS: Azure DevOps é um serviço de Software como Serviço (SaaS) do Azure que fornece ferramentas para gerenciamento do ciclo de vida de desenvolvimento de software, incluindo planejamento, desenvolvimento, testes e entrega.</strong>
+
+### Azure HDInsight
+
+`é um serviço gerenciado de cluster de big data baseado em código aberto, fornecido pelo Azure. Ele permite que você crie, gerencie e dimensione clusters Hadoop, Spark, Kafka e outras tecnologias de big data sem precisar gerenciar a infraestrutura subjacente. O HDInsight é uma plataforma poderosa para análise de big data e processamento de grandes volumes de dados em tempo real.`
+
+### "Service Health" (Status do Serviço) no Azure
+
+`é um serviço que fornece informações sobre a saúde e disponibilidade dos recursos e serviços do Azure. Ele ajuda os usuários a acompanhar e entender o status de qualquer interrupção ou problema conhecido que possa afetar seus serviços e aplicativos hospedados no Azure.`
+
+### Azure Application Insights
+
+`é o serviço mais adequado para esse caso de uso. Ele é projetado especificamente para monitorar o desempenho e o tempo de resposta de aplicativos web, incluindo solicitações de API. Com o Application Insights, você pode rastrear métricas de desempenho, identificar gargalos, analisar o tempo de resposta das solicitações e receber insights valiosos sobre o comportamento do aplicativo.`
+
+### Azure Logic Apps
+
+`é o serviço mais adequado para criar integrações e fluxos de trabalho entre diferentes sistemas e aplicativos. Com o Azure Logic Apps, você pode criar uma lógica que responda ao evento de um novo pedido no aplicativo de e-commerce e, em seguida, acione uma atualização do sistema de gerenciamento de estoque para refletir a mudança no estoque disponível. Ele oferece uma variedade de conectores pré-construídos para integração com outros serviços, incluindo sistemas de gerenciamento de estoque.`
+
+### Azure Security Center
+
+`é aplicável a ambientes Azure, mas também pode ser estendido para proteger recursos em ambientes multicloud e híbridos, fornecendo segurança consistente em várias nuvens.`
+
+### Azure Cognitive Services
+
+`é um conjunto de APIs e serviços pré-treinados de inteligência artificial fornecidos pelo Azure, que permite aos desenvolvedores incorporarem recursos cognitivos, como reconhecimento de fala, visão computacional e processamento de linguagem natural em seus aplicativos.`
+
+### PowerShell da Azure
+
+`é uma estrutura de linha de comando e linguagem de script da Microsoft, desenvolvida especificamente para a administração e gerenciamento de sistemas Windows, incluindo recursos no Azure. É uma linguagem de script poderosa e versátil que permite aos usuários automatizar tarefas de gerenciamento de recursos usando comandos do PowerShell.`
+
+### CLI da Azure
+
+`é uma ferramenta de linha de comando que permite aos usuários interagir com a plataforma Azure usando comandos de texto. Ela é projetada para automatizar tarefas de gerenciamento de recursos e facilitar a implantação e configuração de recursos no Azure usando scripts e automações.`
+
+### regiões restritas (geopolíticas) da Azure
+
+`são projetadas para atender a requisitos específicos de soberania de dados e legislações locais em países ou regiões específicas. Elas só podem ser utilizadas por clientes que operam nesses locais, permitindo que a Microsoft atenda às necessidades regulatórias e de conformidade específicas dessas regiões.`
+
+### Azure Stream Analytics
+
+`é um serviço de análise de dados em tempo real que pode processar e analisar streams de dados em tempo real. Ele é ideal para processar dados de IoT em tempo real e emitir ações com base nos dados.`
+
+### Azure AD Conditional Access
+
+`é uma solução que permite definir políticas de acesso com base em diferentes condições, como localização do usuário ou tipo de dispositivo. Isso permite que a equipe de desenvolvimento acesse recursos e serviços do Azure em diferentes regiões.`
+
+### Azure AD Application Proxy
+
+`é um serviço que permite habilitar o Single Sign-On (SSO) para aplicativos locais ou remotos e permite que os usuários façam login usando suas credenciais corporativas.`
+
+### Azure Database for MySQL
+
+`Fornece um banco de dados MySQL gerenciado na nuvem, eliminando a necessidade de configurar e gerenciar a infraestrutura.`
