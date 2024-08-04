@@ -6,13 +6,19 @@
 
 <strong style="color:red">OBS2: Azure Blob Storage é usado para armazenar dados não estruturados, como imagens, vídeos e arquivos. É uma solução adequada para armazenar e compartilhar arquivos grandes entre equipes internas e parceiros externos, tornando a resposta correta.</strong>
 
+<strong style="color:red">OBS3: O tipo de replicação padrão do Armazenamento de Blobs na Azure é o GRS (Geo-Redundant Storage). Ele replica os dados para discos rígidos locais dentro de uma mesma região geográfica (LRS - Local Redundant Storage) e também replica esses dados para uma região secundária em outra parte do país ou até mesmo em outro país (LRS adicional). Dessa forma, são criadas 3 réplicas dos dados no total.</strong>
+
+<strong style="color:red">OBS4: é classificado como um serviço de Armazenamento de Objetos numa abordagem (PaaS)</strong>
+
 ### Azure Cosmos DB
 
 `é um serviço de banco de dados multimodelo globalmente distribuído e altamente escalável. Embora possa armazenar e gerenciar dados estruturados e não estruturados, não é especificamente projetado para armazenamento de arquivos de mídia.`
 
-<strong style="color:red">OBS: O Azure Cosmos DB é um serviço de banco de dados NoSQL distribuído globalmente e completamente gerenciado que tamb[em se enquadra na categoria de Platform as a Service (PaaS).
+<strong style="color:red">OBS1: O Azure Cosmos DB é um serviço de banco de dados NoSQL distribuído globalmente e completamente gerenciado que tambem se enquadra na categoria de Platform as a Service (PaaS).
 
 O Azure Cosmos DB não é um serviço de banco de dados relacional</strong>
+
+<strong style="color:red">OBS2: O tipo de replicação padrão do Banco de Dados Cosmos DB na Azure é o GZRS (Geo-Zone-Redundant Storage). Ele replica os dados para discos rígidos locais dentro de uma mesma região geográfica e também para uma região secundária em outra zona geográfica dentro da mesma região, criando 4 réplicas dos dados no total.</strong>
 
 ### Azure File Storage
 
@@ -157,9 +163,12 @@ O Azure Cosmos DB não é um serviço de banco de dados relacional</strong>
 
 <strong style="color:red">OBS: O pilar de "Custos" no Well-Architected Framework visa otimizar o uso dos recursos para evitar gastos desnecessários e garantir que a arquitetura seja eficiente e econômica.</strong>
 
-### Azure Cost Management + Billing
+### Azure Cost Management and Billing
 
 `permite criar tags em recursos e categorizá-los para fins de análise de custos, o que ajuda a entender os gastos por projeto, departamento ou outras categorias relevantes.`
+
+<strong style="color:red">OBS: Azure Cost Management and Billing é um serviço da Azure que permite entender como o dimensionamento e a alocação de recursos afetam os custos operacionais das instâncias de máquinas virtuais ao longo do tempo,.
+</strong>
 
 ### Azure Pricing Calculator
 
@@ -172,6 +181,8 @@ O Azure Cosmos DB não é um serviço de banco de dados relacional</strong>
 ### Azure SQL Database
 
 `é um serviço de banco de dados gerenciado que oferece suporte para bancos de dados SQL Server, bem como bancos de dados MySQL, PostgreSQL e MariaDB.`
+
+<strong style="color:red">OBS: O tipo de replicação padrão do Serviço de Banco de Dados SQL da Azure é o GRS (Geo-Redundant Storage). Ele replica os dados para discos rígidos locais dentro de uma mesma região geográfica e também para uma região secundária em outra parte do país ou até mesmo em outro país, criando 3 réplicas dos dados no total.</strong>
 
 ### IaaS
 
@@ -297,7 +308,9 @@ O Azure Security Center não oferece serviços de balanceamento de carga, discos
 
 `é uma solução de gerenciamento de identidades baseada em nuvem, que fornece autenticação e gerenciamento de acesso para usuários e aplicativos.`
 
-<strong style="color:red">OBS: O Microsoft Azure Active Directory (Azure AD) está sendo renomeado para Microsoft Entra ID. Use o Microsoft Entra ID para gerenciar identidades de usuário e controlar o acesso a seus aplicativos, dados e recursos.</strong>
+<strong style="color:red">OBS1: O Microsoft Azure Active Directory (Azure AD) está sendo renomeado para Microsoft Entra ID. Use o Microsoft Entra ID para gerenciar identidades de usuário e controlar o acesso a seus aplicativos, dados e recursos.</strong>
+
+<strong style="color:red">OBS2: O Microsoft Entra ID é um serviço de Software como Serviço (SaaS)</strong>
 
 ### Serviços de Mídia do Azure ("Azure Media Services" em inglês)
 
@@ -310,6 +323,8 @@ O Azure Security Center não oferece serviços de balanceamento de carga, discos
 ### Azure Monitor
 
 `é uma solução de gerenciamento e monitoramento centralizado para recursos do Azure, fornecendo informações em tempo real sobre o desempenho e disponibilidade de aplicativos e serviços. Colete, examine e tire proveito dos dados de telemetria em ambientes que combinam recursos locais e de nuvem. O Azure Monitor oferece suporte às suas operações em larga escala, auxiliando na otimização do desempenho e disponibilidade de seus recursos, além de identificar problemas de forma proativa.`
+
+<strong style="color:red">OBS: O Azure Monitor é a ferramenta da Azure usada para enviar alertas com base em métricas e eventos específicos dos recursos. Ele permite configurar alertas personalizados para notificar quando certas condições são atingidas, como baixa utilização de CPU, alta latência ou falhas de serviço.</strong>
 
 ### Serviço de Aplicativos Lógicos do Azure("Azure Logic Apps", em inglês)
 
@@ -396,3 +411,125 @@ O Azure Security Center não oferece serviços de balanceamento de carga, discos
 ### Azure Database for MySQL
 
 `Fornece um banco de dados MySQL gerenciado na nuvem, eliminando a necessidade de configurar e gerenciar a infraestrutura.`
+
+### Azure Virtual Machine Scale Sets
+
+`é um recurso da Azure que permite criar e gerenciar automaticamente um conjunto de máquinas virtuais idênticas, distribuindo-as em várias regiões do Azure para garantir alta disponibilidade e tolerância a falhas.`
+
+### Azure Security Groups
+
+`é um recurso da Azure que permite definir regras de firewall para controlar o tráfego de entrada e saída para as máquinas virtuais com base em portas, protocolos e endereços IP.`
+
+### Armazenamento de Tabelas e do Armazenamento de Filas na Azure
+
+`LRS (Local Redundant Storage), 1 réplica. O tipo de replicação padrão do Armazenamento de Tabelas e do Armazenamento de Filas na Azure é o LRS (Local Redundant Storage). Ele replica os dados para discos rígidos locais dentro de um mesmo datacenter, criando uma única réplica dos dados.`
+
+### Cloud Shell da Azure
+
+`oferece uma experiência interativa de linha de comando na nuvem que permite aos usuários interagir com serviços do Azure, criar e executar scripts para automação e gerenciamento de recursos, além de persistir arquivos de forma segura em armazenamento temporário associado à conta do usuário. Com o Cloud Shell, é possível executar uma variedade de comandos e tarefas de gerenciamento diretamente no navegador web, sem a necessidade de instalação de ferramentas ou ambientes adicionais.`
+
+### Grupos de Recursos
+
+`Uma única Assinatura do Azure pode conter um número ilimitado de Grupos de Recursos. Os Grupos de Recursos são usados para organizar e gerenciar recursos relacionados em uma Assinatura. Dessa forma, você pode criar quantos Grupos de Recursos forem necessários para melhor organizar seus recursos e aplicativos em uma única Assinatura.`
+
+### Os cinco pilares do Well-Architected Framework da Azure
+
+<strong style="color:red">
+
+- Custo
+
+- Confiabilidade
+
+- Desempenho
+
+- Segurança
+
+- Excelência Operacional
+
+  </strong>
+
+<strong style="color:red">OBS1: O Well-Architected Framework da Azure é uma coleção de diretrizes e melhores práticas para projetar, implantar e operar aplicativos na nuvem de maneira segura, eficiente e confiável. Ele oferece orientações em cinco pilares: Excelência Operacional, Segurança, Confiabilidade, Eficiência de Desempenho e Otimização de Custo. As diretrizes ajudam os arquitetos de nuvem a tomar decisões informadas durante o processo de design, garantindo que os aplicativos sejam construídos da melhor maneira possível. </strong>
+
+<strong style="color:#cc3f12">OBS2: O Well-Architected Framework da Azure é baseado em cinco pilares fundamentais:
+
+Custo: Garantir que a arquitetura seja otimizada em termos de custos, buscando maximizar o valor entregue ao menor custo possível.
+
+Confiabilidade: Assegurar que os sistemas sejam capazes de se recuperar de falhas e se manterem operacionais mesmo em cenários adversos.
+
+Desempenho: Projetar a arquitetura para obter o melhor desempenho possível, garantindo alta eficiência e baixa latência.
+
+Segurança: Implementar controles e medidas de segurança para proteger os dados e os sistemas contra ameaças internas e externas.
+
+Excelência Operacional: Focar em melhorias contínuas e processos eficientes para operar e gerenciar a infraestrutura e os aplicativos.</strong>
+
+### Azure Security Groups
+
+`é um recurso da Azure que permite definir regras de firewall para controlar o tráfego de entrada e saída para as máquinas virtuais com base em portas, protocolos e endereços IP.`
+
+### Azure Resource Manager (ARM)
+
+`Uma das principais vantagens do Azure Resource Manager (ARM) é a capacidade de usar modelos declarativos, geralmente em formato JSON, para definir e gerenciar sua infraestrutura como código. Isso permite a automação e a reprodutibilidade na implantação de recursos na Azure.`
+
+### Azure Dashboards
+
+`é uma ferramenta da Azure que permite criar painéis personalizados com base em métricas e recursos da sua assinatura. Você pode visualizar dados importantes e monitorar a saúde dos recursos de forma personalizada e em tempo real.`
+
+### O Microsoft 365 (anteriormente conhecido como Office 365)
+
+`é um serviço de Software como Serviço (SaaS) do Azure que oferece uma suíte de aplicativos de produtividade, incluindo o Word, Excel, PowerPoint, Outlook e outros, acessíveis através da nuvem.`
+
+### Azure Firewall
+
+`é um serviço de firewall gerenciado da Azure que permite proteger o tráfego de saída da rede virtual para a Internet.`
+
+### Azure Speech Service
+
+`é um serviço da Azure que oferece funcionalidades de reconhecimento de fala, transcrição automática e conversão de texto em fala.`
+
+### Azure Policy
+
+`oferece suporte para aplicar políticas de conformidade em recursos baseados em nuvem e também em recursos locais, permitindo uma abordagem consistente de governança em ambientes híbridos.`
+
+<strong style="color:red">OBS: O Azure Policy não é utilizado para criar máquinas virtuais, configurar redes ou gerenciar bancos de dados. Seu objetivo é aplicar políticas de conformidade em recursos do Azure e garantir que eles estejam em conformidade com as políticas estabelecidas.</strong>
+
+### Tipos de planos de suporte da Azure
+
+`Plano Direto (Direct) de Suporte O Plano Direto (Direct) de Suporte é o plano de suporte mais avançado da Azure, oferecendo suporte técnico 24x7 para casos críticos e tempos de resposta muito rápidos. Esse plano é ideal para empresas que necessitam de suporte prioritário e de alta disponibilidade para suas operações na nuvem.`
+
+`Plano Básico (Basic) de Suporte - O Plano Básico de Suporte oferece suporte básico e tempos de resposta mais lentos em comparação com os outros planos. Ele não oferece suporte técnico 24x7 e é mais adequado para ambientes de desenvolvimento e teste.`
+
+`Plano Desenvolvedor (Developer) de Suporte - O Plano Desenvolvedor de Suporte é destinado a desenvolvedores individuais e equipes de desenvolvimento. Ele oferece suporte técnico durante o horário comercial padrão e não tem suporte 24x7 nem tempos de resposta tão rápidos quanto o Plano Direto de Suporte.`
+
+`Plano Standard de Suporte - O Plano Standard de Suporte oferece suporte técnico durante o horário comercial padrão e tem tempos de resposta mais rápidos do que o Plano Básico de Suporte, mas ainda não possui o suporte 24x7 e tempos de resposta tão rápidos quanto o Plano Direto de Suporte.`
+
+### Dynamics 365
+
+`é um serviço de Software como Serviço (SaaS) do Azure que oferece uma suíte de aplicativos de gerenciamento empresarial, incluindo aplicativos de CRM (Customer Relationship Management) e ERP (Enterprise Resource Planning).`
+
+### AIP - Proteção de Informações do Azure ("Azure Information Protection", em inglês)
+
+`é um serviço de Software como Serviço (SaaS) do Azure que oferece recursos para proteção de dados, classificação de informações confidenciais e controle de acesso a documentos e e-mails.`
+
+### Blueprints em conjunto com a abordagem IAC (Infrastructure as Code) no Azure
+
+`permite a padronização e automatização da implantação consistente de ambientes e recursos. Com Blueprints, você pode definir a configuração de recursos como grupos de recursos, redes virtuais e políticas de acesso em arquivos declarativos e, em seguida, implantar esses arquivos repetidamente para criar ambientes consistentes e prontos para uso. Isso torna o processo de implantação mais rápido, confiável e permite que você mantenha um alto nível de consistência em toda a infraestrutura da nuvem.`
+
+### Microsoft Entra Domain Services, antigo Azure Active Directory (Azure AD)
+
+`é uma função comumente utilizada nos aplicativos móveis da Azure para autenticação e segurança,  um serviço de gerenciamento de identidade e acesso que permite aos usuários acessarem os recursos da Azure com segurança e autenticar-se usando suas credenciais corporativas.`
+
+### Azure Text Analytics
+
+`é um serviço da Azure que permite analisar o texto e extrair informações, incluindo análise de sentimentos, tornando a resposta correta para medir a satisfação do cliente com base em suas interações.`
+
+### Backup do Azure ("Azure Backup", em inglês)
+
+`é um serviço de backup na nuvem que permite fazer backup de dados e cargas de trabalho do local para a nuvem do Azure. Com o Azure Backup, a empresa pode armazenar backups de seus dados críticos com segurança e confiabilidade na nuvem, garantindo a disponibilidade e proteção dos dados em caso de falhas ou desastres.`
+
+### Microsoft Entra ID Connect (Microsoft Entra ID Connect)
+
+`é uma ferramenta que permite sincronizar identidades locais com o Azure Active Directory.`
+
+### Azure TCO Calculator
+
+`é uma ferramenta da Azure que permite calcular os custos totais de propriedade (TCO) para a migração de servidores locais para a nuvem do Azure, considerando custos operacionais, de hardware e de licenciamento.`
