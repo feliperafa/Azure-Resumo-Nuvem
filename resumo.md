@@ -20,6 +20,10 @@ O Azure Cosmos DB não é um serviço de banco de dados relacional</strong>
 
 <strong style="color:red">OBS2: O tipo de replicação padrão do Banco de Dados Cosmos DB na Azure é o GZRS (Geo-Zone-Redundant Storage). Ele replica os dados para discos rígidos locais dentro de uma mesma região geográfica e também para uma região secundária em outra zona geográfica dentro da mesma região, criando 4 réplicas dos dados no total.</strong>
 
+<strong style="color:red">OBS3: O Azure Cosmos DB é ideal para cenários de IoT, pois pode rastrear e armazenar grandes volumes de dados de sensores de dispositivos IoT distribuídos globalmente com baixa latência, garantindo uma experiência de leitura e gravação eficiente para aplicativos em escala global.
+
+</strong>
+
 ### Azure File Storage
 
 `é um serviço de armazenamento na nuvem que fornece compartilhamentos de arquivos acessíveis por meio do protocolo SMB (Server Message Block). Embora possa armazenar arquivos, não é projetado especificamente para armazenar dados não estruturados, como imagens e vídeos.`
@@ -85,6 +89,9 @@ O Azure Cosmos DB não é um serviço de banco de dados relacional</strong>
 ### principais componentes do Controle de Acesso Baseado em Função (RBAC) no Azure
 
 `incluem usuários, grupos de usuários, aplicativos e grupos de segurança. Os usuários são as contas individuais com acesso ao Azure, os grupos de usuários são usados para agrupar usuários com funções semelhantes, os aplicativos representam as identidades de serviços e os grupos de segurança são usados para conceder permissões a um conjunto de usuários ou aplicativos.`
+
+<strong style="color:red">OBS: O Controle de Acesso Baseado em Função (RBAC) é um modelo de segurança que permite aos administradores conceder permissões específicas aos usuários com base em suas funções dentro da organização. Isso ajuda a controlar o acesso aos recursos do Azure e a garantir que os usuários tenham apenas as permissões necessárias para realizar suas tarefas.
+</strong>
 
 ### Azure Advisor
 
@@ -334,7 +341,7 @@ O Azure Security Center não oferece serviços de balanceamento de carga, discos
 
 `desempenha um papel fundamental ao permitir a criação e administração de serviços de integração de aplicativos. Sua principal função é estabelecer conexões entre diferentes aplicativos, dados e serviços, facilitando a integração eficaz entre componentes localizados tanto na nuvem quanto no ambiente local. Isso possibilita uma comunicação fluida e a transferência eficiente de informações entre diferentes partes do ecossistema de uma organização. Em resumo, o Azure Integration Services oferece uma abordagem robusta e centralizada para gerenciar a integração de aplicativos em ambientes diversos, promovendo uma arquitetura coesa e eficiente.`
 
-### Azure DNS
+### Azure DNSAzure DNS
 
 `é um serviço de resolução de nomes de domínio oferecido pelo Microsoft Azure. Ele permite mapear nomes de domínio legíveis para humanos em endereços IP numéricos usados pelos computadores. O serviço de DNS é responsável por resolver esses nomes em endereços IP, permitindo que os recursos e serviços na nuvem do Azure sejam acessados usando nomes de domínio amigáveis.`
 
@@ -533,3 +540,68 @@ Excelência Operacional: Focar em melhorias contínuas e processos eficientes pa
 ### Azure TCO Calculator
 
 `é uma ferramenta da Azure que permite calcular os custos totais de propriedade (TCO) para a migração de servidores locais para a nuvem do Azure, considerando custos operacionais, de hardware e de licenciamento.`
+
+<strong style="color:red">OBS: O TCO é usado para calcular os custos de recursos antes de implantá-los, considerando os custos ao longo do tempo de operação e propriedade desses recursos no Azure. A Azure Pricing Calculator é usada para estimar os custos antes da implantação, levando em conta a configuração desejada dos recursos no Azure.
+</strong>
+
+### Rede Virtual do Azure ("Azure Virtual Network", em inglês)
+
+`é um serviço que permite criar e gerenciar redes virtuais isoladas na nuvem da Azure. Ele fornece controle sobre endereços IP, sub-redes, regras de firewall, rotas e conectividade com outras redes locais ou na nuvem.`
+
+### Assistente do Azure
+
+`oferece recomendações nas categorias de Desempenho para otimizar a infraestrutura e garantir que os recursos estejam configurados de maneira adequada para atender às demandas de carga de trabalho. Essas recomendações visam melhorar o desempenho e a confiabilidade dos serviços da Azure, ajudando a evitar gargalos e ineficiências em sua implantação.`
+
+### Máquinas Virtuais do Azure "Virtual Machines - VMs", em inglês
+
+`permitem criar e gerenciar máquinas virtuais que podem executar sistemas operacionais Windows ou Linux. Isso fornece flexibilidade para hospedar aplicativos e serviços na nuvem.`
+
+### Serviço de Armazenamento do Azure
+
+`oferece várias opções de armazenamento em nuvem, como Blobs (objetos), Tabelas, Filas e Discos Gerenciados, atendendo às necessidades de armazenamento de dados e arquivos.`
+
+### Serviço Azure Functions
+
+`permite criar e implantar rapidamente funções sem servidor que respondem a eventos e acionadores específicos, sem a necessidade de gerenciar infraestrutura.`
+
+### Serviço Banco de Dados SQL do Azure
+
+`oferece serviços gerenciados de banco de dados relacionais, permitindo implantar bancos de dados seguros e escaláveis na nuvem.`
+
+### Azure Databricks
+
+`é um serviço de análise de big data que fornece recursos de processamento em lote e em tempo real. Ele combina a plataforma Apache Spark com a segurança e escalabilidade do Azure, permitindo a análise de grandes volumes de dados de forma eficiente e escalonável.`
+
+### Azure Data Factory
+
+`o principal conceito usado para definir a orquestração do fluxo de dados é chamado de "Pipelines". Os pipelines são fluxos de trabalho que definem como os dados são movidos, transformados e carregados de uma origem para um destino. Eles são compostos por atividades que representam etapas específicas do processo de integração de dados, como ingestão de dados, transformação e carga em um destino.`
+
+### Serviços Cognitivos ("Azure Cognitive Services", em inglês)
+
+`são um conjunto de serviços e APIs de inteligência artificial (IA) e aprendizado de máquina (ML) oferecidos pela Microsoft para adicionar recursos avançados de IA a aplicativos. Eles permitem que desenvolvedores incorporem funcionalidades como reconhecimento facial, análise de texto, processamento de linguagem natural, visão computacional e muito mais, sem precisar criar esses recursos do zero.`
+
+### Opex x Capex
+
+`Opex é baseado em pagamento conforme o uso (pay-as-you-go), enquanto Capex envolve custos fixos e pré-pagos. A principal diferença entre Opex e Capex em Cloud Computing é a forma como os custos são tratados. Opex é um modelo de despesas operacionais em que os custos estão diretamente relacionados ao uso real dos recursos. Com o modelo Opex, você paga apenas pelo que realmente utiliza, geralmente em um formato de pagamento conforme o uso (pay-as-you-go). Por outro lado, Capex é um modelo de despesas de capital em que os custos são incorridos antecipadamente, envolvendo um investimento inicial fixo e pré-pago em hardware, software ou infraestrutura.`
+
+### Azure Virtual Machines
+
+`suporta a implantação de máquinas virtuais com os sistemas operacionais Windows Server e Linux. Essa flexibilidade permite que os usuários escolham a plataforma que melhor se adapta às suas necessidades.`
+
+### Regiões da Azure Existentes
+
+`Atualmente a Azure possui mais de 80 regiões em todo o mundo.`
+
+<strong style="color:red">OBS: As regiões do Azure não são totalmente independentes umas das outras. Embora cada região seja composta por vários datacenters, elas são interconectadas por uma rede global de alta velocidade. Essa interconexão permite que os recursos e serviços do Azure sejam replicados e compartilhados entre as regiões para garantir alta disponibilidade, resiliência e recuperação de desastres eficiente.</strong>
+
+### Single Sign-On (SSO) do Microsoft Entra ID
+
+`simplifica a experiência do usuário, permitindo que eles façam login uma vez e acessem vários aplicativos e serviços sem a necessidade de digitar suas credenciais repetidamente. Isso reduz a carga de lembrar várias senhas diferentes, o que pode aumentar a produtividade e a satisfação do usuário.`
+
+### Azure Queue Storage
+
+`é umn serviço que fornece discos virtuais persistentes para uso em máquinas virtuais, oferecendo armazenamento de bloco escalável, pois essa função é do Azure Disk Storage.`
+
+### Azure Disk Storage
+
+`é umn serviço que permite criar filas de mensagens para comunicação assíncrona entre componentes de aplicativos, pois essa função é do Azure Queue Storage.`
