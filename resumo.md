@@ -90,6 +90,13 @@ O Azure Cosmos DB não é um serviço de banco de dados relacional</strong>
 
 `incluem usuários, grupos de usuários, aplicativos e grupos de segurança. Os usuários são as contas individuais com acesso ao Azure, os grupos de usuários são usados para agrupar usuários com funções semelhantes, os aplicativos representam as identidades de serviços e os grupos de segurança são usados para conceder permissões a um conjunto de usuários ou aplicativos.`
 
+<strong style="color:red">OBS: <span style="color:#ccff12">RBAC</span> </br>
+R - Recursos, </br>
+B - Beneficiários,</br>
+A - Atribuição,</br>
+C - Controle.
+</strong>
+
 <strong style="color:red">OBS: O Controle de Acesso Baseado em Função (RBAC) é um modelo de segurança que permite aos administradores conceder permissões específicas aos usuários com base em suas funções dentro da organização. Isso ajuda a controlar o acesso aos recursos do Azure e a garantir que os usuários tenham apenas as permissões necessárias para realizar suas tarefas.
 </strong>
 
@@ -379,6 +386,8 @@ O Azure Security Center não oferece serviços de balanceamento de carga, discos
 
 `é o serviço mais adequado para esse caso de uso. Ele é projetado especificamente para monitorar o desempenho e o tempo de resposta de aplicativos web, incluindo solicitações de API. Com o Application Insights, você pode rastrear métricas de desempenho, identificar gargalos, analisar o tempo de resposta das solicitações e receber insights valiosos sobre o comportamento do aplicativo.`
 
+<strong style="color:red">OBS: O recurso Mapa de aplicativos do Azure Application Insights é mais adequado para visualizar a taxa de erros e falhas de solicitações em diferentes regiões geográficas. Ele permite que você visualize a topologia e a dependência entre os componentes do aplicativo, incluindo serviços e recursos distribuídos em várias regiões. Com o Mapa de aplicativos, você pode identificar quais regiões estão enfrentando mais erros e problemas de desempenho, facilitando a resolução de problemas e a tomada de decisões sobre otimizações.</strong>
+
 ### Azure Logic Apps
 
 `é o serviço mais adequado para criar integrações e fluxos de trabalho entre diferentes sistemas e aplicativos. Com o Azure Logic Apps, você pode criar uma lógica que responda ao evento de um novo pedido no aplicativo de e-commerce e, em seguida, acione uma atualização do sistema de gerenciamento de estoque para refletir a mudança no estoque disponível. Ele oferece uma variedade de conectores pré-construídos para integração com outros serviços, incluindo sistemas de gerenciamento de estoque.`
@@ -521,6 +530,8 @@ Excelência Operacional: Focar em melhorias contínuas e processos eficientes pa
 
 `permite a padronização e automatização da implantação consistente de ambientes e recursos. Com Blueprints, você pode definir a configuração de recursos como grupos de recursos, redes virtuais e políticas de acesso em arquivos declarativos e, em seguida, implantar esses arquivos repetidamente para criar ambientes consistentes e prontos para uso. Isso torna o processo de implantação mais rápido, confiável e permite que você mantenha um alto nível de consistência em toda a infraestrutura da nuvem.`
 
+<strong style="color:red">OBS: Os Blueprints no Azure são construídos sobre o Azure Resource Manager (ARM) e usam a API e a funcionalidade do ARM como base para definir e implantar a configuração de recursos na nuvem. Os Blueprints permitem que você agrupe recursos e políticas do ARM em um pacote que pode ser implantado repetidamente para criar ambientes padronizados e consistentes.</strong>
+
 ### Microsoft Entra Domain Services, antigo Azure Active Directory (Azure AD)
 
 `é uma função comumente utilizada nos aplicativos móveis da Azure para autenticação e segurança,  um serviço de gerenciamento de identidade e acesso que permite aos usuários acessarem os recursos da Azure com segurança e autenticar-se usando suas credenciais corporativas.`
@@ -584,6 +595,10 @@ Excelência Operacional: Focar em melhorias contínuas e processos eficientes pa
 
 `Opex é baseado em pagamento conforme o uso (pay-as-you-go), enquanto Capex envolve custos fixos e pré-pagos. A principal diferença entre Opex e Capex em Cloud Computing é a forma como os custos são tratados. Opex é um modelo de despesas operacionais em que os custos estão diretamente relacionados ao uso real dos recursos. Com o modelo Opex, você paga apenas pelo que realmente utiliza, geralmente em um formato de pagamento conforme o uso (pay-as-you-go). Por outro lado, Capex é um modelo de despesas de capital em que os custos são incorridos antecipadamente, envolvendo um investimento inicial fixo e pré-pago em hardware, software ou infraestrutura.`
 
+<strong style="color:red">OBS: As principais vantagens de usar o modelo Opex em Cloud Computing em comparação com o modelo Capex?
+</strong></br>
+<span style="color:#ccff12">A vantagem principal de usar o modelo Opex em Cloud Computing é o maior controle de custos e a maior previsibilidade financeira. Com o modelo Opex, você paga apenas pelo que usa, permitindo ajustar facilmente os recursos conforme a demanda. Isso proporciona maior flexibilidade financeira, pois os custos estão diretamente alinhados ao uso real dos recursos. Além disso, a capacidade de pagar apenas pelos recursos utilizados torna os custos mais previsíveis, especialmente em comparação com o modelo Capex, onde os custos são antecipados e podem não corresponder diretamente à utilização real.</span>
+
 ### Azure Virtual Machines
 
 `suporta a implantação de máquinas virtuais com os sistemas operacionais Windows Server e Linux. Essa flexibilidade permite que os usuários escolham a plataforma que melhor se adapta às suas necessidades.`
@@ -605,3 +620,7 @@ Excelência Operacional: Focar em melhorias contínuas e processos eficientes pa
 ### Azure Disk Storage
 
 `é umn serviço que permite criar filas de mensagens para comunicação assíncrona entre componentes de aplicativos, pois essa função é do Azure Queue Storage.`
+
+### Azure Batch
+
+`é um serviço que fornece recursos para criar e gerenciar clusters de máquinas virtuais para processamento paralelo e de alto desempenho, permitindo executar tarefas em larga escala.`
